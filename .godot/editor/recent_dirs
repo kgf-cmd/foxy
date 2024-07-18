@@ -1,3 +1,5 @@
+res://singletons
+res://enemies/enemy_base
 res://player
 res://player_cam
 res://level_base

@@ -1,4 +1,3 @@
-res://level_base/level_base.tscn
-res://player/player.tscn
-res://level_base/level_base.gd
-res://player/player.gd
+res://enemies/enemy_base/enemy_base.tscn
+res://enemies/enemy_base/enemy_base.gd
+res://singletons/game_manager.gd

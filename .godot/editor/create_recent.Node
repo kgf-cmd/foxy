@@ -1,5 +1,8 @@
-Label
 CharacterBody2D
+AnimatedSprite2D
+VisibleOnScreenNotifier2D
+AudioStreamPlayer2D
+Label
 AnimationPlayer
 CollisionShape2D
 Sprite2D

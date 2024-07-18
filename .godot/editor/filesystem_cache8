@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720098932
+::res://::1721239210
 icon.png::CompressedTexture2D::8084694904197376212::1719942517::1719942518::1::::<><>::
+README.md::TextFile::-1::1720183056::0::1::::<><>::
 test.tscn::PackedScene::6476378127583878248::1720014535::0::1::::<><>::uid://c1mihivr70qn3::::res://assets/tiles/Terrain (16x16).png
 ::res://assets/::1719942517
 ::res://assets/backgrounds/::1719942520
@@ -110,10 +111,18 @@ blue_button00.png::CompressedTexture2D::6580294064966762018::1719942517::1719942
 green_button00.png::CompressedTexture2D::2895808350222846750::1719942517::1719942518::1::::<><>::
 level_select_frame_128.png::CompressedTexture2D::2262285146384463432::1719942517::1719942518::1::::<><>::
 yellow_button00.png::CompressedTexture2D::3876749407530557296::1719942517::1719942518::1::::<><>::
-::res://level_base/::1720031018
-level_base.tscn::PackedScene::2799544567874559810::1720031018::0::1::::<><>::uid://c1mihivr70qn3::::res://assets/tiles/Terrain (16x16).png<>uid://bh3w4omba61nb::::res://player_cam/player_cam.tscn
-::res://player/::1720016664
-player.tscn::PackedScene::2315167499576463992::1720016664::0::1::::<><>::uid://dbbq03bge23uo::::res://assets/player/player.png
+::res://enemies/::1720363553
+::res://enemies/enemy_base/::1721069662
+enemy_base.tscn::PackedScene::6277265440192023792::1721069662::0::1::::<><>::
+::res://level_base/::1720208379
+level_base.gd::GDScript::-1::1720100630::0::1::::<>Node2D<>::
+level_base.tscn::PackedScene::2799544567874559810::1720208379::0::1::::<><>::uid://c1mihivr70qn3::::res://assets/tiles/Terrain (16x16).png<>res://level_base/level_base.gd<>uid://bh3w4omba61nb::::res://player_cam/player_cam.tscn<>uid://78qp84jc4ds7::::res://player/player.tscn
+::res://player/::1720208379
+player.gd::GDScript::-1::1720208377::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::2315167499576463992::1720208379::0::1::::<><>::res://player/player.gd<>uid://dbbq03bge23uo::::res://assets/player/player.png
 ::res://player_cam/::1720014956
 player_cam.gd::GDScript::-1::1720014948::0::1::::<>Camera2D<>::
 player_cam.tscn::PackedScene::2936933482048345019::1720014956::0::1::::<><>::res://player_cam/player_cam.gd
+::res://singletons/::1720363555
+signal_manager.gd::GDScript::-1::1720363555::0::1::::<>Node<>::
+sound_manager.gd::GDScript::-1::1720208067::0::1::::<>Node<>::
