@@ -1,5 +1,7 @@
-res://singletons
+res://assets/enemies/snail
+res://enemies/snail
 res://enemies/enemy_base
+res://singletons
 res://player
 res://player_cam
 res://level_base

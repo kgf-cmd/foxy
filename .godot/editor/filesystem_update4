@@ -1,3 +1,6 @@
+res://enemies/snail/snail.tscn
+res://level_base/level_base.tscn
+res://player/player.tscn
 res://enemies/enemy_base/enemy_base.tscn
 res://enemies/enemy_base/enemy_base.gd
-res://singletons/game_manager.gd
+res://enemies/snail/snail.gd
